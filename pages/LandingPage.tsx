@@ -7,7 +7,7 @@ import { Section4 } from "../components/landingPageSections/Section4";
 import { Section5 } from "../components/landingPageSections/Section5";
 import { Footer } from "../components/Footer";
 
-export const LandingPage = () => {
+const LandingPage = () => {
   return (
     <>
       <div>
@@ -30,3 +30,5 @@ export const LandingPage = () => {
     </>
   );
 };
+
+export default LandingPage;
