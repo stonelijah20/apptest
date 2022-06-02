@@ -4,7 +4,7 @@ import { ContactInfo } from "../../files/data";
 export const Section5 = () => {
   return (
     <>
-      <div className="bg-gray-50 px-10 md:flex md:space-x-5 md: py-5 justify-center">
+      <div className="bg-gray-50 px-10 md:flex md:space-x-5 md: py-2 justify-center">
         {ContactInfo.map((contacts, index) => {
           const { img, contact } = contacts;
           return (
