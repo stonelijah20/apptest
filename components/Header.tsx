@@ -5,8 +5,8 @@ import { Buttons } from "./Buttons";
 export const Header = () => {
   return (
     <>
-      <div className="shadow-xl sticky top-0 backdrop-opacity-10">
-        <div className="flex justify-between py-3 px-3">
+      <div className="shadow-xl">
+        <div className="flex justify-between py-3 px-3 md:mx-10 py-2">
           <div>
             <Image src={headerIcon} alt="App_Test icon" />
           </div>

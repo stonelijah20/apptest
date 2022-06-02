@@ -4,7 +4,7 @@ type Props = {
 export const Layout = ({ children }: Props) => {
   return (
     <>
-      <div className="px-10">{children}</div>
+      <div className="px-10 md:px-16">{children}</div>
     </>
   );
 };

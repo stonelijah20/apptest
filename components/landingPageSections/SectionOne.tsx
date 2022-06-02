@@ -6,12 +6,12 @@ import { WhiteButton } from "../WhiteButton";
 export const SectionOne = () => {
   return (
     <>
-      <div className="flex justify-center text-center">
+      <div className="flex justify-center text-center md:px-44">
         <div className="my-8">
           <h5 className="text-green-800 text-sm uppercase font-bold py-4">
             great software requires great testing
           </h5>
-          <h1 className="text-black capitalize text-xl font-bold py-4">
+          <h1 className="text-black capitalize text-xl font-bold py-4 md:text-4xl py-6">
             find profit zapping bugs before your customers do!
           </h1>
           <p className="text-slate-700 text-base leading-2 py-4">
@@ -21,7 +21,7 @@ export const SectionOne = () => {
             while guaranteeing product quality that your developer or internal
             QA may overlook.
           </p>
-          <div className="my-5">
+          <div className="my-5 md:flex md:justify-center md:space-x-7">
             <div className="mb-6">
               <Buttons>
                 <div className="flex space-x-2 items-center">
