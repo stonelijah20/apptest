@@ -14,7 +14,7 @@ export const Section5 = () => {
                   <div className="mr-6 md:mr-2 bg-slate-100 w-16 h-16 md:w-8 md:h-8 grid place-content-center rounded ">
                     <Image src={img} alt="contact" />
                   </div>
-                  <p className="text-2xl md:text-base">{contact}</p>
+                  <p className="text-sm md:text-base">{contact}</p>
                 </div>
               </div>
             </div>

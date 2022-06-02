@@ -22,7 +22,7 @@ export const Section4 = () => {
             return (
               <div
                 key={index}
-                className=" md:flex items-center md:justify-between even:flex-row-reverse md:mb-10"
+                className=" md:flex items-center md:justify-between even:flex-row-reverse mb-10 md:mb-20"
               >
                 <div className="md:w-1/2">
                   <div className="flex items-center justify-start md:space-x-5">

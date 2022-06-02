@@ -10,7 +10,7 @@ export const Footer = () => {
             {FooterLinks.map((items, index) => {
               return (
                 <div key={index} className="border-l first:border-0">
-                  <li className="pl-2">{items}</li>
+                  <li className="pl-2 underline text-xs sm:text-sm">{items}</li>
                 </div>
               );
             })}
