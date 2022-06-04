@@ -30,7 +30,7 @@ export const Help = () => {
           <div>
             <p>Trusted by amazing development teams in the world</p>
           </div>
-          <div className="flex justify-evenly">
+          <div className="flex justify-evenly items-center">
             {LogoIcons.map((logo, index) => {
               return (
                 <div key={index}>
