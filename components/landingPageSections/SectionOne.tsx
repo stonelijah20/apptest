@@ -37,12 +37,16 @@ export const SectionOne = () => {
               </Link>
             </div>
             <div>
-              <WhiteButton>
-                <div className="flex space-x-2 items-center">
-                  <p>Request Quote</p>
-                  <FontAwesomeIcon icon={faArrowRight} />
-                </div>
-              </WhiteButton>
+              <Link href={"../../RequestQuote"}>
+                <a>
+                  <WhiteButton>
+                    <div className="flex space-x-2 items-center">
+                      <p>Request Quote</p>
+                      <FontAwesomeIcon icon={faArrowRight} />
+                    </div>
+                  </WhiteButton>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

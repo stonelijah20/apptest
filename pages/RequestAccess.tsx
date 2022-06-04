@@ -15,7 +15,7 @@ const RequestAccess = () => {
     <>
       <div className="flex flex-row-reverse">
         <div className="w-full md:w-7/12">
-          <div className="bg-green-800 pb-20 md:bg-white h-screen">
+          <div className="bg-green-800 pb-32 md:bg-white h-screen">
             <div className="px-5 p-5 flex items-center w-9/12 space-x-20">
               <div className="flex items-center">
                 <Link href={"/"}>
