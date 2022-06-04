@@ -61,10 +61,12 @@ export const FullForm = () => {
             </div>
             <div className="flex flex-col space-y-3">
               <label className="text-slate-700">Phone Number</label>
-              <div className="relative flex items-center">
-                <div className="absolute top-50 px-2 border-2 border-r-gray-400 ">
-                  <FaEnvelope color="gray" />
-                </div>
+              <div className="relative flex items-center space-x-2">
+                <input
+                  className="bg-slate-200 rounded text-slate-600 text-xs p-3 w-1/5 pl-10"
+                  type="text"
+                  placeholder=""
+                />
                 <input
                   className="bg-slate-200 rounded text-slate-600 text-xs p-3 w-full pl-10"
                   type="text"
