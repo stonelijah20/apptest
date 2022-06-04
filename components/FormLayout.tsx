@@ -10,14 +10,13 @@ type Props = {
 export const FormLayout = ({ children }: Props) => {
   return (
     <>
-      <div className="bg-green-800 h-screen">
+      <div className="bg-green-800 h-screen md:bg-white">
         <div className="px-5 p-5 flex items-center w-9/12 space-x-20">
           <div className="flex items-center">
             <Link href={"/"}>
-              <FontAwesomeIcon
-                color="white"
-                icon={faArrowLeft}
-              ></FontAwesomeIcon>
+              <div className="text-white md:text-black">
+                <FontAwesomeIcon icon={faArrowLeft}></FontAwesomeIcon>
+              </div>
             </Link>
           </div>
           <div className="flex justify-center md:hidden">

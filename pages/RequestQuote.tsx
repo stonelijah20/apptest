@@ -5,8 +5,8 @@ import { Help } from "../components/RequestAccess/Help";
 const RequestQuote = () => {
   return (
     <>
-      <div>
-        <div className="hidden">
+      <div className="flex ">
+        <div className="hidden md:block">
           <Help />
         </div>
         <div>

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import whiteHeader from "../Assets/images/RequestAccess/whiteHeader.png";
-import emoji from "../Assets/images/RequestAccess/Emoji.png";
+import emoji from "../Assets/images/RequestAccess/logo/Emoji.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -19,10 +19,9 @@ const RequestAccess = () => {
             <div className="px-5 p-5 flex items-center w-9/12 space-x-20">
               <div className="flex items-center">
                 <Link href={"/"}>
-                  <FontAwesomeIcon
-                    color="white"
-                    icon={faArrowLeft}
-                  ></FontAwesomeIcon>
+                  <div className="text-white md:text-black">
+                    <FontAwesomeIcon icon={faArrowLeft}></FontAwesomeIcon>
+                  </div>
                 </Link>
               </div>
               <div className="flex justify-center md:hidden">
