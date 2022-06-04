@@ -1,7 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect } from "react";
+
 import Image from "next/image";
+import Link from "next/link";
+
 import { landingOnboardingInfo } from "../../files/data";
 
 import mobile from "../../Assets/images/Section4/mobile.png";
@@ -42,10 +45,15 @@ export const Section4 = () => {
                     </div>
                   </div>
                   <p>{text}</p>
-                  <div className="flex my-4 space-x-2 items-center text-green-800 underline font-semibold capitalize">
-                    <p>Request Access</p>
-                    <FontAwesomeIcon icon={faArrowRight} />
-                  </div>
+                  <Link href={"../../RequestAccess"}>
+                    <div
+                      className="flex my-4 space-x-2 items-center text-green-800 underline 
+                  font-semibold capitalize cursor-pointer"
+                    >
+                      <p>Request Access</p>
+                      <FontAwesomeIcon icon={faArrowRight} />
+                    </div>
+                  </Link>
                 </div>
                 <div className="flex justify-center">
                   <Image height={370} width={500} src={imag} alt="Image" />

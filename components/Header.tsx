@@ -7,7 +7,7 @@ export const Header = () => {
     <>
       <div className="shadow-xl">
         <div className="flex justify-between py-3 px-3 md:mx-10 py-2">
-          <div>
+          <div className="cursor-pointer">
             <Image src={headerIcon} alt="App_Test icon" />
           </div>
           <div>

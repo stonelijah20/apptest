@@ -3,6 +3,8 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Buttons } from "../Buttons";
 import { WhiteButton } from "../WhiteButton";
 
+import Link from "next/link";
+
 export const SectionOne = () => {
   return (
     <>
@@ -23,12 +25,16 @@ export const SectionOne = () => {
           </p>
           <div className="my-5 md:flex md:justify-center md:space-x-7">
             <div className="mb-6">
-              <Buttons>
-                <div className="flex space-x-2 items-center">
-                  <p>Request Access</p>
-                  <FontAwesomeIcon icon={faArrowRight} />
-                </div>
-              </Buttons>
+              <Link href={"../../RequestAccess"}>
+                <a>
+                  <Buttons>
+                    <div className="flex space-x-2 items-center">
+                      <p>Request Access</p>
+                      <FontAwesomeIcon icon={faArrowRight} />
+                    </div>
+                  </Buttons>
+                </a>
+              </Link>
             </div>
             <div>
               <WhiteButton>

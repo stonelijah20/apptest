@@ -10,7 +10,10 @@ export const Section3 = () => {
           </div>
         </div>
         <div className="md:flex justify-center">
-          <div className="my-12 text-black font-bold text-lg text-center md:w-1/2 md:my-5 md:text-2xl md:font-semibold">
+          <div
+            className="my-12 text-black font-bold text-lg text-center 
+          md:w-1/2 md:my-5 md:text-2xl md:font-semibold"
+          >
             <p>
               Get onboarded in minutes, and get test results in hours not in
               days or months

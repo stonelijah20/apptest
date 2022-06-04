@@ -8,6 +8,11 @@ import phone from '../Assets/images/Section5/phone.png'
 import mail from '../Assets/images/Section5/mail.png'
 import location from '../Assets/images/Section5/location.png'
 
+import aella from '../Assets/images/RequestAccess/logo/aella.png'
+import bleyt from '../Assets/images/RequestAccess/logo/bleyt.png'
+import inlaks from '../Assets/images/RequestAccess/logo/inlaks.png'
+import providus from '../Assets/images/RequestAccess/logo/providus.png'
+
 
 export const landingOnboardingInfo = [
     {
@@ -52,3 +57,22 @@ export const ContactInfo = [
 ]
 
 export const FooterLinks = ["Terms & Conditions", "Privacy Polices", "Sitemap"]
+
+
+// REQUEST ACCESS PAGE
+export const Info = [
+    {
+        help: "Increase development and QA efficency for team impact"
+    },
+    {
+        help: "Efficently manage text and decrease the time required on designing and coding manual to automated tests"
+    },
+    {
+        help: "Conduct rapid regression testing to increase release confidence"
+    },
+    {
+        help: "Design QA stategy for long-term success and greater ROI"
+    },
+]
+
+export const LogoIcons = [aella, bleyt, inlaks, providus]
