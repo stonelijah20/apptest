@@ -63,12 +63,12 @@ export const FullForm = () => {
               <label className="text-slate-700">Phone Number</label>
               <div className="relative flex items-center space-x-2">
                 <input
-                  className="bg-slate-200 rounded text-slate-600 text-xs p-3 w-1/5 pl-10"
+                  className="bg-slate-200 rounded text-slate-600 text-xs p-3 w-1/5"
                   type="text"
-                  placeholder=""
+                  placeholder="+234"
                 />
                 <input
-                  className="bg-slate-200 rounded text-slate-600 text-xs p-3 w-full pl-10"
+                  className="bg-slate-200 rounded text-slate-600 text-xs p-3 w-full"
                   type="text"
                   placeholder="900000000"
                 />
