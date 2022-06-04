@@ -4,20 +4,19 @@ import { faArrowLeft, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import whiteHeader from "../Assets/images/RequestAccess/whiteHeader.png";
 import emoji from "../Assets/images/RequestAccess/Emoji.png";
-import check from "../Assets/images/RequestAccess/check.png";
+
 import Image from "next/image";
 import Link from "next/link";
 import { FaEnvelope } from "react-icons/fa";
-
-import { Info, LogoIcons } from "../files/data";
+import { Help } from "../components/RequestAccess/Help";
 
 const RequestAccess = () => {
   return (
     <>
-      <div>
-        <div>
+      <div className="flex flex-row-reverse">
+        <div className="w-full md:w-7/12">
           <div className="bg-green-800 pb-20 md:bg-white">
-            <div className="px-10 p-5 items-center flex space-x-20">
+            <div className="px-10 p-5 flex items-center w-9/12 space-x-20">
               <div className="flex items-center">
                 <Link href={"/"}>
                   <FontAwesomeIcon
@@ -55,7 +54,10 @@ const RequestAccess = () => {
                 </div>
                 <div className="space-x-3 flex items-center">
                   <div>
-                    <input type="checkbox" className="w-6 h-6 rounded" />
+                    <input
+                      type="checkbox"
+                      className="accent-black w-6 h-6 rounded"
+                    />
                   </div>
                   <label className="text-xs text-slate-600">
                     I have read and I accept the{" "}
@@ -66,7 +68,10 @@ const RequestAccess = () => {
                 </div>
                 <div className="space-x-3 flex items-center">
                   <div>
-                    <input type="checkbox" className="w-6 h-6 rounded" />
+                    <input
+                      type="checkbox"
+                      className="accent-black w-6 h-6 rounded"
+                    />
                   </div>
                   <label className="text-xs text-slate-600">
                     Send me occasional emails about Appstest &apos;s services
@@ -80,33 +85,8 @@ const RequestAccess = () => {
             </div>
           </div>
         </div>
-
-        <div className="bg-green-800">
-          <h1>Discover how we can help you</h1>
-          <p>We&apos;ve tested over 100+ applications and we can help you:</p>
-          <div>
-            {Info.map((ele, index) => {
-              const { help } = ele;
-              return (
-                <div key={index}>
-                  <div className="flex">
-                    <Image src={check} alt="info" />
-                    <p>{help}</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-          <div className="border-white border-t-2 ">
-            <p>Trusted by amazing development teams in the world</p>
-            {LogoIcons.map((logo, index) => {
-              return (
-                <div key={index}>
-                  <Image src={logo} alt="company" />
-                </div>
-              );
-            })}
-          </div>
+        <div className="hidden md:block">
+          <Help />
         </div>
       </div>
     </>
